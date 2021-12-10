@@ -17,9 +17,9 @@ const router = express.Router()
 
 //karena ini sudah didalam folder artis, jadinya /artis tidak perlu, cukup menggunakan "/" saja
 
-//create new `artis`
+// //create new `artis`
 router.post("/", ()=>{} )
-//get all `artis`
+// router.get("/artis", )
 router.get("/", ()=>{
     res.send({msg: "get all artis"})
 })
@@ -27,7 +27,7 @@ router.get("/", ()=>{
 router.get("/:id", ()=>{})
 //update `artis`
 router.put("/:id", ()=>{})
-//delete `artis`
+// //delete `artis`
 router.delete("/:id", ()=>{})
 
 module.exports = router
