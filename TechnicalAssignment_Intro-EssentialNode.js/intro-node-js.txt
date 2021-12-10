@@ -1,0 +1,21 @@
+1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
+Node.js adalah runtime environment untuk JavaScript yang bersifat open-source dan cross-platform. 
+Dengan Node.js kita dapat menjalankan kode JavaScript di mana pun, tidak hanya terbatas pada lingkungan browser.
+Perbedaan Node.js dan JavaScript adalah JavaScript adalah bahasa pemrograman, sedangkan Node.js adalah runtime.
+
+2. Mohon jelaskan arsitektur dari Node.js?
+- Single Thread : Memiliki satu tumpukan panggilan yang digunakan untuk menjalankan program.
+- Even Loop : Even loop akan memeriksa terus menerus, ketika antrian kosong di call stack maka akan menambah antrian
+           baru dari event queue sampai semua perintah selesai di eksekusi.
+- Server Side Scripting : Dengan menggunakan Node.js kita dapat menjalankan javascript di server side menggunakan terminal command line 
+           menggunakan perintah "node".
+
+3. Apa perbedaan antara Built-in Module, External Module, dan Custom Module pada Node.js?
+Built-in Module : Modul yang sudah tersedia langsung dari Node.js
+External Module : Modul yang memerlukan instalasi sebelum digunakan
+Custom Module : Module yang dibuat sesuai kebutuhan
+
+4. Sebutkan salah satu contoh dari Built-in Module, External Module, dan Custom Module pada Node.js?
+Built-in Module : fs
+External Module : npm i nodemoon
+Custom Module : sesuai kebutuhan kita
