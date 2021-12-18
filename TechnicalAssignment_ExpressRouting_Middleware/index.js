@@ -12,7 +12,6 @@ const hewan = [
     {id: 5, nama: 'Rere', spesies: 'kucing'},
 ]
 
-
 const postChecker = (req, res, next) => {
     const spesies = req.body.spesies
     const error = "not valid"
@@ -79,6 +78,6 @@ app.delete("/hewan/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log("server is listening on port ",port);
-    console.log("this is logger")
+    console.log("Server is listening on port ",port);
+    console.log("This is logger")
 });
