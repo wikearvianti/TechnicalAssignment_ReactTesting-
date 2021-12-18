@@ -4,9 +4,11 @@
 
 2. Jelaskan arsitektur static site dan dynamic site?
 
-3. Apa saja yang dapat kita buat pada sisi server? request, headers and accepts parameters
+3. Apa saja yang dapat kita buat pada sisi server? request, headers, and accepts parameters
 
 4. Mohon jelaskan apa itu RESTful?
+RESTful adalah gaya arsitektur untuk API yang menggunakan HTTP untuk mengakses dan menggunakan data. Data tersebut digunakan untuk GET, PUT, POST, dan DELETE. RESTful ekerja dengan memecah transaksi ke dalam serangkaian modul kecil.
+
 
 5. Apa saja jenis HTTP verbs yang ada (jelaskan fungsinya masing-masing)!
 - GET : Mengambil data tertentu berdasarkan id atau sekumpulan data
